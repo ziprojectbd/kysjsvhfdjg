@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center gap-2">
             <span className="font-display font-bold text-xl sm:text-2xl text-casino-ink tracking-tight">
-              নভা প্লে
+              SK BET 999
             </span>
             <span className="text-xs text-casino-neon font-bold tracking-wider uppercase opacity-70">
               ১৮+
