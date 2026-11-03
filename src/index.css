@@ -34,4 +34,17 @@
   .section-padding {
     @apply py-16 sm:py-24 lg:py-32;
   }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-casino-neon via-casino-gold to-casino-neonViolet;
+  }
+  .colorful-border {
+    @apply border border-casino-border/50 rounded-2xl bg-gradient-to-br from-casino-neon/10 via-casino-gold/10 to-casino-neonViolet/10;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }

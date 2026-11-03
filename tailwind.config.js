@@ -31,13 +31,17 @@ export default {
       fontFamily: {
         sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
         display: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        permanent: ['"Permanent Marker"', 'cursive'],
+        fredoka: ['"Fredoka"', 'sans-serif'],
+        orbitron: ['"Orbitron"', 'sans-serif'],
+        sanchez: ['"Sanchez"', 'serif'],
       },
       fontSize: {
         'display-xl': ['3.5rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
         'display-lg': ['2.75rem', { lineHeight: '1.15', letterSpacing: '-0.015em' }],
         'display-md': ['2rem', { lineHeight: '1.2', letterSpacing: '-0.01em' }],
       },
-      animation: {
+        animation: {
         'float': 'float 6s ease-in-out infinite',
         'float-slow': 'float 8s ease-in-out infinite',
         'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
@@ -47,6 +51,9 @@ export default {
         'spin-slow': 'spin 12s linear infinite',
         'bounce-subtle': 'bounce-subtle 4s ease-in-out infinite',
         'marquee': 'marquee 20s linear infinite',
+        'marquee-slow': 'marquee 40s linear infinite',
+        'rainbow': 'rainbow 6s ease-in-out infinite',
+        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       keyframes: {
         float: {
@@ -80,6 +87,11 @@ export default {
         marquee: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
+        },
+        rainbow: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
         },
       },
       backdropBlur: {

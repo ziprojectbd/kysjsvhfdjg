@@ -7,18 +7,17 @@ export default function Navbar() {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 border-b border-casino-border/40 bg-casino-dark/90 backdrop-blur-md"
+      className="fixed top-0 left-0 right-0 z-50 border-b border-white/30 bg-black/40 backdrop-blur-md"
       aria-label="মুुख্য নেভিগেশন"
     >
       <div className="section-container">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center gap-2">
-            <span className="font-display font-bold text-xl sm:text-2xl text-casino-ink tracking-tight">
-              SK BET 999
-            </span>
-            <span className="text-xs text-casino-neon font-bold tracking-wider uppercase opacity-70">
-              ১৮+
-            </span>
+            <img
+              src="https://res.cloudinary.com/dxilo3mlg/image/upload/v1793732718/SKLOGO_rshrkn.webp"
+              alt="JOIN REWARDS logo"
+              className="h-10 sm:h-12 w-auto"
+            />
           </div>
 
           <div className="hidden sm:flex items-center gap-6 sm:gap-8 text-sm sm:text-base">

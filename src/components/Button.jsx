@@ -14,7 +14,7 @@ export function Button({
     'inline-flex items-center justify-center rounded-xl font-semibold transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-casino-dark';
   const variants = {
     primary:
-      'bg-casino-neon text-white shadow-[0_0_20px_rgba(176,42,142,0.5)] hover:bg-casino-neon/90 hover:shadow-neon-lg focus:ring-casino-neon',
+      'bg-casino-neon text-white shadow-[0_0_20px_rgba(176,42,142,0.5)] hover:bg-casino-neon hover:text-white hover:shadow-neon-lg focus:ring-casino-neon',
     outline:
       'bg-transparent border border-casino-border/60 text-casino-ink hover:bg-casino-surfaceHover hover:border-casino-borderHover focus:ring-casino-border',
     ghost:
